@@ -28,7 +28,7 @@ public class RotatingBinarySearch {
         Scanner s=new Scanner(System.in);
         int[] arr=new int[]{4,3,5,1,6,5,9,7,8};
         int n=arr.length;
-        int target=10;
+        int target=6;
         int t=rotatingbinarysearch(arr,0,n-1,target);
         System.out.println(t);
     }
