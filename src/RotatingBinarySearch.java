@@ -8,6 +8,7 @@ public class RotatingBinarySearch {
         }
             int mid = i + (n - i) / 2;
             if (target == arr[mid]) {
+
                 return mid;
             }
              if (arr[i] <=arr[mid]) {

@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
 public class codeforces {
+   /* public static int bitwise(int m,int j)
+    {
+        if(m!=0) {
+            return m--;
+        }
+        m=m&(m-j);
+        j=j+1;
+        return bitwise(m,j);
+    }*/
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
@@ -25,6 +34,9 @@ public class codeforces {
                 j++;
             }
             System.out.println(m-1);
+          /*  int m=s.nextInt();
+            int t=bitwise(m,1);
+            System.out.println(t-2);*/
         }
     }
 }
