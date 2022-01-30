@@ -19,7 +19,6 @@ public class RemoveDuplicateElements {
             str.deleteCharAt(i+1);
             return remove(str,i,n-1);
         }
-        else
          return remove(str,i+1,n);
     }
     public static void main(String[] args) {
